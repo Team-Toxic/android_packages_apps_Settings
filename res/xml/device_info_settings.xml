@@ -17,6 +17,40 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+<<<<<<< HEAD
+=======
+         <!-- Logo -->
+         <PreferenceScreen android:key="toxic_logo"
+                android:layout="@layout/toxic_logo" />
+
+        <!-- System update settings - launches activity -->
+        <PreferenceScreen android:key="system_update_settings"
+                android:title="@string/system_update_settings_list_item_title"
+                android:summary="@string/system_update_settings_list_item_summary">
+            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="additional_system_update_settings"
+                          android:title="@string/additional_system_update_settings_list_item_title">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="@string/additional_system_update"
+                    android:targetClass="@string/additional_system_update_menu" />
+        </PreferenceScreen>
+
+        <!-- About Toxic -->
+        <PreferenceScreen android:key="about"
+                android:title="@string/about_crdroid"
+                android:fragment="com.android.settings.crdroid.About" />
+
+               <!-- Toxic OTA -->
+       <PreferenceScreen android:key="toxic_ota"
+                         android:title="@string/toxic_updater_title">
+                 <intent android:action="android.intent.action.MAIN"
+                         android:targetPackage="com.toxic.ota"
+                         android:targetClass="com.toxic.ota.MainActivity" />
+       </PreferenceScreen>  
+
+>>>>>>> a42c3e7... Settings: Add Toxic Logo
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
