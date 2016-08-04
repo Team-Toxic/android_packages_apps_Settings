@@ -27,3 +27,4 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 android:title="@string/dev_2"
                 android:summary="@string/dev2_description"/>
 </PreferenceScreen>
+
