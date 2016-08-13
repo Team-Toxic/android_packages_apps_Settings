@@ -55,7 +55,13 @@
         <PreferenceScreen android:key="device_feedback"
                 android:title="@string/device_feedback">
         </PreferenceScreen>
-
+        
+        <!-- ToxicOS version -->
+        <Preference android:key="toxic_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/toxic_version_title"
+                android:summary="@string/toxic_version"/>
+                
         <!-- Device hardware model -->
         <Preference android:key="device_model"
                 style="?android:preferenceInformationStyle"
