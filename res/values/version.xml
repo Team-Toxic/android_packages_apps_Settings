@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ToxicOS version -->
+   <string name="toxic_version_title">Team-Toxic OS version</string>
+   <string name="toxic_version">V0.5-Alpha</string>
+
+</resources>
